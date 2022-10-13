@@ -7,7 +7,43 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML Lesson</title>
+    <title>Mihai Mitricel's bad written blog!</title>
   </head>
-  <body></body>
+  <body>
+    <article>
+      <section id="welcome">
+        <h1>Welcome to my blog!</h1>
+      </section>
+      <hr>
+      <section id="description">
+        <h2>What is this?</h2>
+        <p>This is a begginer's attempt at writing a simple blog! </p>
+      </section>
+      <section id="image">
+        <figure>
+          <img src="assets\hands.png" alt="Typing on laptop">
+          <figcaption>That's me trying to write this blog!</figcaption>
+        </figure>
+      </section>
+      <section id="purpose">
+        <h2>What's the purpose of this blog?</h2>
+        <p>The purpose of this blog is for me to complete the exercise from <a href="https://develhope.co">Develhope</a> and also a thing for me to (hopefully) laugh about in the future about how simple and rudimentary this blog is.</p>
+      </section>
+    </article>
+    <section id="subscription">
+      <img src="assets\laptop.png" alt="a lonely laptop" width="320" height="320">
+      <h3>Do you want to subscribe to my blog?</h3>
+      <form method="post" action="https://develhope.co">
+        <label for="your_email">Type your email here:</label>
+        <input type="email" name="your_email" id="your_email" required placeholder="(e.g. johnsmith@gmail.com)">
+        <br/>
+        <button>Subscribe!</button>
+      </form>
+    </section>
+    <hr>
+    <footer>
+        <p>This is the footer of the blog.</p>
+        <p>Scrolled too much? <a href="#top">Click here!</a></p>
+    </footer>
+  </body>
 </html>
